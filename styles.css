@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+    /* Background */
+    background-color: #FCF9ED;
+    color: #1b1b1b;
+}
+
+
+/* Header */
+.site-header {
+    background-color: #EBDFCC;
+    padding: 1.5rem 1rem;
+    border-bottom: 2px solid #C0CCC2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #1b1b1b
+}
+
+.nav-link a {
+    color: #1b1b1b;
+    padding: 0.4rem 0.6rem;
+    border-radius: 8px;
+}
+
+.nav-link a:hover,
+.nav-link a:focus {
+    background-color: #D9CECC;
+}
+
+/* Portrait */
+.portrait {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.headshot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #C0CCC2;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #D9CECC;
+}
+
+/* FOOTER */
+.website-footer {
+    background-color: #EBDFCC;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: #444;
+}
+
+.website-footer a {
+    color: #1b1b1b;
+}
