@@ -13,19 +13,28 @@ EMAIL: rubiv1@uci.edu
   <meta name="description" content="Porfolio of Rubi Valenzuela.">
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
-  <title>Rubi Valenzuela | Portfolio</title>
+    
+   <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
+
+  <title>Rubi Valenzuela | Portfolio</title>
 </head>
 
 <body>
   <header class="site-header">
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Primary">
       <a class="logo" href="index.html">Rubi</a>
-      <ul class="nav-link">
-        <li><a href="index.html" aria-current="page"> About </a></li>
-        <li><a href="projects.html"> Projects </a></li>
-        <li><a href="#contact"> Contact </a></li>
+      
+      <input class="nav-toggle" type="checkbox" id="nav-toggle">
+      <label class="nav-toggle-label" for="nav-toggle"><span></span></label>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -58,13 +67,44 @@ EMAIL: rubiv1@uci.edu
     </section>
   </main>
 
-  <footer class="website-footer">
-    <p> © 2026 Rubi Valenzuela </p>
-    <p>
-      <a href="http://validator.w3.org/check?uri=referer">
-        W3C validator
-      </a>
-    </p>
-  </footer>
+  <footer class="website-footer" id="contact">
+  <div class="footer-inner">
+    <section class="footer-col" aria-labelledby="footer-contact-title">
+      <h2 class="footer-title" id="footer-contact-title">Contact</h2>
+      <p class="footer-note">Feel free to reach out anytime.</p>
+    </section>
+
+    <section class="footer-col" aria-labelledby="footer-info-title">
+      <h2 class="footer-title" id="footer-info-title">Info</h2>
+
+      <ul class="footer-list">
+        <li>
+          <span class="footer-label">Email:</span>
+          <a href="mailto:rubivalenzuela562@icloud.com">rubivalenzuela562@icloud.com</a>
+        </li>
+        <li>
+          <span class="footer-label">Phone:</span>
+          <a href="tel:15629129014">562&#8209;912&#8209;9014</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="footer-col" aria-labelledby="footer-links-title">
+      <h2 class="footer-title" id="footer-links-title">Connect</h2>
+
+      <ul class="footer-list">
+        <li>
+          <span class="footer-label">LinkedIn:</span>
+          <a href="https://www.linkedin.com/in/rubi-valenzuela" target="_blank" rel="noopener">
+            linkedin.com/in/rubi-valenzuela
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <p class="footer-copy">© 2026 Rubi Valenzuela</p>
+  </div>
+</footer>
+
 </body>
 </html>
