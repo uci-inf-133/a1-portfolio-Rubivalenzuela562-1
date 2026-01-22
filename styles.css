@@ -7,7 +7,7 @@ body {
     font-family: "Nunito", Arial, Helvetica, sans-serif;
     line-height: 1.6;
 
-    /* Background */
+    /* Background color */
     background-color: #FCF9ED;
     color: #1b1b1b;
 }
@@ -70,7 +70,7 @@ h1, h2, h3 {
     width: 44px;
     height: 44px;
     border-radius: 10px;
-    background: #D9CECC;
+    background: transparent;
     cursor: pointer;
     align-items: center;
     justify-content: center;
@@ -123,7 +123,7 @@ h1, h2, h3 {
 
 
 /* Portrait */
-.portrait {
+.heading {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +154,28 @@ main {
     padding: 1.5rem;
     border-radius: 12px;
     border: 1px solid #D9CECC;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #D9CECC;
+  border-radius: 10px;
+}
+
+.contact-form button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #1b1b1b;
+  color: #FCF9ED;
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -237,4 +259,14 @@ main {
     grid-column: 1 / -1;
     margin-top: 0.5rem;
   }
+}
+
+/* CSS for projects.html */
+.project-links a {
+  text-decoration: none;
+}
+
+.project-links a: hover,
+.project-links a: focus {
+  text-decoration-thickness: 2px;
 }
