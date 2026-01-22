@@ -266,7 +266,3 @@ main {
   text-decoration: none;
 }
 
-.project-links a: hover,
-.project-links a: focus {
-  text-decoration-thickness: 2px;
-}
